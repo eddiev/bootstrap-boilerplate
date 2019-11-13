@@ -1,102 +1,114 @@
-.hero{
+.hero {
+  .jumbotron {
+    background-image: url("../img/Bobby-Berk_Furniture-Line_Interior-Design_Modern_Clean_Bright_1.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    // background-position: top right;
+    padding: 10rem 2rem;
 
-    .jumbotron {
-        background-image: url('../img/Bobby-Berk_Furniture-Line_Interior-Design_Modern_Clean_Bright_1.jpg');
-background-size: cover;
-height: 100%;
-        background-repeat: no-repeat;
-        // background-position: top right;
-        padding: 10rem 2rem;
-
-            @include media-breakpoint-up(sm) {
-                padding: 5rem 2rem;
-            }
-
-            @include media-breakpoint-up(md) {
-                padding: 10rem 2rem;
-            }
-
-            @include media-breakpoint-up(lg) {
-                padding: 15rem 2rem;
-            }
-
-                        @include media-breakpoint-up(xl) {
-                                    padding: 20rem 2rem;
-                        }
+    @include media-breakpoint-up(sm) {
+      padding: 5rem 2rem;
     }
 
+    @include media-breakpoint-up(md) {
+      padding: 10rem 2rem;
+    }
+
+    @include media-breakpoint-up(lg) {
+      padding: 15rem 2rem;
+    }
+
+    @include media-breakpoint-up(xl) {
+      padding: 20rem 2rem;
+    }
+  }
 }
 
 .favorite-items,
 .shop-by {
-    .col-md {
-        margin: 1.75rem 0.25rem 1.75rem 0 !important;
-    }
+  .col-md {
+    margin: 1.75rem 0.25rem 1.75rem 0 !important;
+  }
 
-    .col-md:last-of-type {
-        margin-right: 0px !important;
-    }
+  .col-md:last-of-type {
+    margin-right: 0px !important;
+  }
 
-    h1, h2 {
-        font-family: 'DM Serif Text',
-            serif;
-    }
+  h1,
+  h2 {
+    font-family: "DM Serif Text", serif;
+  }
 
-    p{
-        padding:15px;
-        font-family: 'Quicksand',
-        sans-serif;
-        font-weight: 300;
-    }
+  p {
+    padding: 15px;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    margin-top: 10px;
+  }
+
+  li {
+    margin-bottom: 10px;
+    line-height: 1.25;
+  }
+
+  a.name {
+    color: #000;
+  }
 }
 
-.intro-copy, .meet {
-h1,
-h2 {
-    font-family: 'DM Serif Text',
-    serif;
-}
+.intro-copy,
+.meet {
+  h1,
+  h2 {
+    font-family: "DM Serif Text", serif;
+  }
 
-    p{
-        margin: 30px 0 10px 0;
-        font-family: 'Quicksand',
-        sans-serif;
-        font-weight: 300;
-    }
+  p {
+    margin: 30px 0 10px 0;
+    font-family: "Quicksand", sans-serif;
+    font-weight: 300;
+  }
 
-    .blockquote-footer{
-       margin-bottom: 30px;
-    }
+  .blockquote-footer {
+    margin-bottom: 30px;
+  }
 }
 
 .blog-overview {
-    .col-md-6 {
-        margin-bottom: 2rem;
-    }
+  .col-md-6 {
+    margin-bottom: 2rem;
+  }
 }
 
 .circle-gallery {
-    margin-top: 2.5rem;
-    background-color: #ccc;
+  margin-top: 2.5rem;
+  background-color: #ccc;
 
-    .col-md {
-        margin: 2.5rem 0 0;
-    }
+  .col-md {
+    margin: 2.5rem 0 0;
+  }
 
-    .col-md:last-of-type {
-        margin-bottom: 2.5rem;
-    }
+  .col-md:last-of-type {
+    margin-bottom: 2.5rem;
+  }
 }
 
 .global-footer {
-    padding: 2.5rem 0 2.5rem;
-    background-color: #EFEEEE;
-    color: #fff;
+  padding: 2.5rem 0 2.5rem;
+  background-color: #efeeee;
+  color: #fff;
 }
 
 .sub-banner {
-    padding: 3rem 0;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
+  padding: 3rem 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
